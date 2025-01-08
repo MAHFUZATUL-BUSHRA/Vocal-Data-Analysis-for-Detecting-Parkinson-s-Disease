@@ -21,4 +21,8 @@ This section will provide an overview of the suggested framework, and details of
 * Step 8: Evaluate the performance. I use various performance matrices, such as precision, recall, f1-score, support, ROC Curve, and ROC AUC score, for evaluating and comparing the results.
 * Step 9: Construct a predictive model that can find out whether or not they are affected by Parkinson's disease.
 
-  
+### Principal component analysis (PCA):
+In dataset 3, the PCA feature selection algorithm is employed to improve the outcome and effectiveness of the classifications. And there are some notable changes. To explore information, and understand the variables and their relationships, PCA is used on multivariate data. This technique is useful for identifying outliers and condensing the dimensions of the feature space. PCA improves the performance of the model with higher Accuracy by producing independent, uncorrelated features of the dataset.  
+
+### Classifications:
+All datasets are subjected to the six supervised classifiers Linear Regression, Logistic Regression, Decision Tree, Support Vector Machine, Random Forest Classifier, and XGBoost Classifier, while dataset 2 is the sole exception applied Neural Network. Classifiers are built using the Sklearn libraries, neural networks are created using the Keras and Tensorflow libraries, other functions are developed using numpy and pandas, and various plots and graphical visualizations are generated using Seaborn, matplotlib, and Scikit-Plot.
